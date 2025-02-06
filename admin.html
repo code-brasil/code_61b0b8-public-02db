@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Administração - EduPro</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800">
+    <header class="bg-blue-600 p-4 flex justify-between">
+        <h1 class="text-white text-2xl">Painel de Administração</h1>
+        <button id="logout" class="text-white">Sair</button>
+    </header>
+    <main class="p-8">
+        <section class="mb-8">
+            <h2 class="text-xl mb-4">Gerenciar Usuários</h2>
+            <div id="manage-users" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- Lista de usuários serão carregados aqui via JavaScript -->
+            </div>
+        </section>
+        <section class="mb-8">
+            <h2 class="text-xl mb-4">Gerenciar Cursos</h2>
+            <div id="manage-courses" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- Lista de cursos serão carregados aqui via JavaScript -->
+            </div>
+        </section>
+        <section class="mb-8">
+            <h2 class="text-xl mb-4">Transações Financeiras</h2>
+            <div id="financial-transactions" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- Transações serão carregadas aqui via JavaScript -->
+            </div>
+        </section>
+    </main>
+    <footer class="bg-blue-600 p-4 text-center text-white">
+        © 2023 EduPro. Todos os direitos reservados.
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
