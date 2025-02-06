@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduPro - Plataforma de Cursos Online</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800">
+    <header class="bg-blue-600 p-4">
+        <h1 class="text-white text-3xl">EduPro</h1>
+        <nav class="mt-2">
+            <a href="index.html" class="text-white mr-4">Home</a>
+            <a href="login.html" class="text-white mr-4">Login</a>
+            <a href="signup.html" class="text-white">Cadastro</a>
+        </nav>
+    </header>
+    <main class="p-8">
+        <section class="mb-8">
+            <h2 class="text-2xl mb-4">Bem-vindo ao EduPro</h2>
+            <p>Plataforma intuitiva e acessível para criação, gestão e consumo de cursos online.</p>
+        </section>
+        <section>
+            <h3 class="text-xl mb-4">Cursos Populares</h3>
+            <div id="popular-courses" class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <!-- Cursos serão carregados aqui via JavaScript -->
+            </div>
+        </section>
+    </main>
+    <footer class="bg-blue-600 p-4 text-center text-white">
+        © 2023 EduPro. Todos os direitos reservados.
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
